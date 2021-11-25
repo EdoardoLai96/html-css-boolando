@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
@@ -33,6 +34,7 @@ img{
     bottom: 3%;
     left: 0;
     color: #fff;
+    font-weight: 700;
 }
 
 .sconto{
