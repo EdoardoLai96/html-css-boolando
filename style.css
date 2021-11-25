@@ -19,6 +19,7 @@ main{
 .vetrina{
     background-color: coral;
     display: inline-block;
+    position: relative;
 }
 
 
@@ -27,4 +28,28 @@ img{
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
+}
+
+.extrainfo{
+    display: inline-block;
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    color: #fff;
+}
+
+.sconto{
+    background-color: red;
+}
+
+.cuore{
+    position: absolute;
+    right: 0%;
+    top:5%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
 }
