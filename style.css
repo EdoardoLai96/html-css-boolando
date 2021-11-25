@@ -1,7 +1,12 @@
+/* general */
+
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* fine  general */
+
 
 main{
     height: 100vh;
@@ -9,24 +14,35 @@ main{
      margin: auto;
 }
 
+
+/* prodotto con descrizione  */
+
 .product{
     height: 50%;
     width: 30%;
 }
 
 
+ /* vetrina con foto modello con cuore e sconto  */
+
 .vetrina{
     display: inline-block;
     position: relative;
 }
 
-
+ /* foto modello  */
 
 img{
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
 }
+ /* fine foto modello  */
+
+
+
+/* Sconto e sostenibilità  */
+
 
 .extrainfo{
     display: inline-block;
@@ -49,6 +65,8 @@ img{
 
 }
 
+/* fine Sconto e sostenibilità  */
+
 
 
 .cuore{
@@ -62,3 +80,5 @@ img{
     text-align: center;
     line-height: 30px;
 }
+
+/* fine vetrina  */
