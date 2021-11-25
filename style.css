@@ -81,4 +81,36 @@ img{
     line-height: 30px;
 }
 
-/* fine vetrina  */
+/* fine vetrina  */ 
+
+
+/* inizio didascalia  */
+
+.brand{
+    font-size: 12px;
+    color: #787980;
+}
+
+.name{
+    font-size: 13px;
+    font-weight:bolder;
+}
+
+
+.prezzo{
+    font-size: 11px;
+    color: #787980;
+    font-weight: 600;
+}
+
+.prezzo.nuovo{
+    font-size: 11px;
+    color: #EB0037;
+}
+
+.prezzo.vecchio{
+    font-size: 11px;
+    color: #787980;
+    text-decoration: line-through;
+
+}
