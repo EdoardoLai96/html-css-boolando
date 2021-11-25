@@ -30,6 +30,11 @@ main{
     position: relative;
 }
 
+.vetrina:hover .base1{
+
+display: block;
+}
+
  /* foto modello  */
 
 img{
@@ -37,6 +42,21 @@ img{
     max-height: 100%;
     object-fit: cover;
 }
+
+.base{
+    z-index: 1;
+}
+
+
+
+
+.base1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
  /* fine foto modello  */
 
 
@@ -112,5 +132,8 @@ img{
     font-size: 11px;
     color: #787980;
     text-decoration: line-through;
-
 }
+
+/* fine didascalia  */
+
+/* fine prodotto con descrizione  */
